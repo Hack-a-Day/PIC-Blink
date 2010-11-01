@@ -1,0 +1,1 @@
+The code in each of these directories for the PIC device with the same name as the directory. The code has been compiled using the Small Device C Compiler, sdcc and can be programmed into the proper chip with a PICStart+ programmer or a PICkit 2 programmer.
