@@ -6,7 +6,7 @@
 #include "pic/pic16f887.h"
 
 //Use these configuration words:
-//0x3ff4 0x3fff
+//0x2ff4 0x3fff
 
 //Set the configuration words:
 unsigned int at _CONFIG1 configWord1 = 0x2FF4;
@@ -25,7 +25,7 @@ unsigned int at _CONFIG2 configWord2 = 0x3fff;
 //picp /dev/ttyUSB0 16f887 -wp blink.hex
 
 //Write the configuration words (optional):
-//picp /dev/ttyUSB0 16f887 -wc 0x3ff4 0x3fff
+//picp /dev/ttyUSB0 16f887 -wc 0x2ff4 0x3fff
 
 //Doing it all at once: erasing, programming, and reading back config words:
 //picp /dev/ttyUSB0 16f887 -ef -wp blink.hex -rc
